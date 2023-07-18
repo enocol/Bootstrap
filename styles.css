@@ -20,20 +20,6 @@
   display: flex;
 }
 
-.sectionB {
-  width: 90%;
-  margin: 50px 0 0 30px;
-  justify-content: center;
-  display: flex;
-}
-
-.sectionC {
-  width: 90%;
-  margin: 50px 0 0 30px;
-  justify-content: center;
-  display: flex;
-}
-
 .card {
   flex-direction: row;
 }
