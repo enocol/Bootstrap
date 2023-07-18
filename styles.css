@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 10px;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.sectionA {
+  width: 90%;
+  margin: 50px 0 0 30px;
+  justify-content: center;
+  display: flex;
+}
+
+.sectionB {
+  width: 90%;
+  margin: 50px 0 0 30px;
+  justify-content: center;
+  display: flex;
+}
+
+.sectionC {
+  width: 90%;
+  margin: 50px 0 0 30px;
+  justify-content: center;
+  display: flex;
+}
+
+.card {
+  flex-direction: row;
+}
+
+.img {
+  width: 50%;
+}
+
+.card-3 .img {
+  order: 2;
+}
+
+.card-3 .card-body {
+  order: 1;
+}
